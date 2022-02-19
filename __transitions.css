@@ -1,0 +1,10 @@
+:root {
+    /* Transition */
+    --transition-none: none;
+    --transition-all: all cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+    --transition: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+    --transition-colors: color, background-color, border-color, text-decoration-color, fill, stroke cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+    --transition-opacity: opacity cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+    --transition-shadow: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+    --transition-transform: transform cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+}

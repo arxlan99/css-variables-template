@@ -1,0 +1,32 @@
+@import "__colors.css";
+@import "__animations.css";
+@import "__box-shadows.css";
+@import "__transitions.css";
+@import "__screen-sizes.css";
+@import "__fonts.css";
+
+
+/* @import "__layout.css";
+@import "__typography.css";
+@import "__buttons.css";
+@import "__forms.css";
+@import "__tables.css";
+@import "__cards.css";
+@import "__modals.css";
+@import "__navigation.css";
+@import "__utilities.css";
+@import "__components.css";
+@import "__spacing.css";
+@import "__grid.css";
+@import "__helpers.css";
+ */
+
+.content {
+    background: var(--zinc-100);
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
+
+    font-family: var(--font-mono);
+    font-weight: bold;
+}
